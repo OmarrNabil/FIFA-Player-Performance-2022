@@ -24,19 +24,6 @@ print(df.shape)
 print(df.head())
 
 # %%
-# Choose columns for the project
-columns = [
-    "goals_overall",
-    "assists_overall",
-    "minutes_played_overall",
-    "shots_total_overall",
-    "shots_on_target_overall",
-    "yellow_cards_overall",
-    "average_rating_overall"
-]
-
-
-# %%
 
 # -----------------------------------
 # 2. Select Important columns
@@ -220,5 +207,6 @@ plt.title("Minutes Played vs Average Rating")
 plt.xlabel("Minutes Played")
 plt.ylabel("Average Rating")
 plt.show()
+
 
 
